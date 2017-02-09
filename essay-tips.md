@@ -1,4 +1,4 @@
-If you can find them, read 5s and 6s and try to figure out what makes a 6 a 6. Don't be afraid to be pedantic, and definitely write practice essays.
+If you can find them, read 5s and 6s and try to figure out what makes a 6 a 6. Don't be afraid to be pedantic! They like that.
 
 1. For the issue essay:
     - Choose a FIRM position and DO NOT WAFFLE: Either agree or disagree. The person grader won't care and the e-grader DEFINITELY won't care. What matters is that you can structure an argument coherently.
@@ -42,5 +42,3 @@ If you can find them, read 5s and 6s and try to figure out what makes a 6 a 6. D
     - NO passive voice.
 
 5. Be sure to READ THE PROMPT! It will likely include a directive and you should be responding to that directive.
-
-In case you're curious I got a 5.5 (I would bet my 5 was in the issue essay) so take that part with a bigger grain of salt!

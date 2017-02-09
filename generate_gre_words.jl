@@ -44,7 +44,7 @@ edf = unique(DataFrame(word = allwords, polarity = alleff))
 
 ldf     = readtable(joinpath(maindir, lexicon), separator = ' ', header = false)
 lnames  = [match(r"^([a-z]+)\d?=", s).captures[1] for s in Array(ldf[1,:])]
-names!(ldf, convert(Array{Symbol}, lnames))
+names!(ldf, convert(Array{Symbol}, lnames[:]))
 for col in names(ldf)
     ldf[col] = map(s -> replace(s, r"^([a-z]+)\d?=", s""), ldf[col])
 end
