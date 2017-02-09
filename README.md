@@ -3,7 +3,7 @@ Description
 
 Study GRE vocab from the command line, including the strength and positive/negative connotation of the word if available. Note I use [Julia](http://julialang.org) to compile the list of words from source.
 
-Usage
+Setup
 -----
 
 ```bash
@@ -13,8 +13,8 @@ git clone github.com/mcaceresb/gre-cli-words
 cd gre-cli-words
 chmod +x ./generate_gre_words.jl
 ./generate_gre_words.jl
-./random_gre.sh
-echo "$HOME/lib/random_gre.sh" >> $HOME/.bashrc
+./random_gre.sh $HOME/lib/gre-cli-words/custom_gre_word_list
+echo "$HOME/lib/random_gre.sh $HOME/lib/gre-cli-words/custom_gre_word_list" >> $HOME/.bashrc
 ```
 
 The last line makes it so a random word appears whenever you open a terminal running bash.
