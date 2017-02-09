@@ -1,0 +1,42 @@
+The +/-Effect sense-level lexicon in the file "goldStandard.tff" were created
+by the annotators.
+
+The +/-Effect sense-level lexicon in the file "EffectWordNet.tff" were created
+by the work presented in:
+
+Yoonjung Choi and Janyce Wiebe. +/-EffectWordNet: Sense-level Lexicon Acquisition
+for Opinion Inference. EMNLP 2014.
+
+
+----------------------------------------------------------------------------
+
+I. WordNet
+
+We used WordNet 3.0 provided by Princeton University.
+
+
+II. Format of the lexicon
+
+Each line in the file contains one sense (synset).  Below is an example:
+
+synset_offset \t type \t synset \t gloss
+
+a. synset_offset - provided by WordNet 3.0
+
+b. type - +Effect, -Effect, or Null
+    +Effect: A synset has positive effects on entities
+    -Effect: A synset has negative effects on entities
+    Null: Neither +Effect nor -Effect
+
+c. synset - A synonym set
+
+d. gloss - A definition and optionally example sentences of the synset.
+
+
+----------------------------------------------------------------------
+
+The data is free to use for research purposes. If you are using it in your work,
+(Choi and Wiebe, EMNLP 2014) is the right paper to cite.
+
+Please direct any questions or problems that you have to the following email address:
+yjchoi@cs.pitt.edu
