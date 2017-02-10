@@ -3,13 +3,15 @@ Description
 
 Study GRE vocab from the command line, including the strength and positive/negative connotation of the word if available. Note I use [Julia](http://julialang.org) to compile the list of words from source.
 
+I made this because while studying for the GRE. I open the terminal very often (e.g. logging into a server over SSH is fairly common during a workday) so displaying a vocab word whenever that happens seemed like a good idea to study.
+
 Setup
 -----
 
 ```bash
 mkdir $HOME/lib
 cd $HOME/lib
-git clone github.com/mcaceresb/gre-cli-words
+git clone https://github.com/mcaceresb/gre-cli-words
 cd gre-cli-words
 chmod +x ./generate_gre_words.jl
 ./generate_gre_words.jl
